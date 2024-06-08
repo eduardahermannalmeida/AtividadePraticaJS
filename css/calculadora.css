@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Tiny5", sans-serif;
+}
+
+body {
+
+    background-color: rgb(241, 225, 215);
+    color: rgb(143, 107, 91);
+
+}
+
+header {
+
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 179, 160);
+    color: rgb(128, 51, 0);
+}
+
+main {
+
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 35px;
+
+}
+
+.form {
+
+    display: flex;
+    flex-direction: column;
+    margin: 0 500px;
+    margin-top: 40px;
+}
+
+.form input {
+
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.form .botoes {
+
+    margin: 5px auto;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.form button {
+
+    width: 120px;
+    height: 35px;
+    margin: 5px auto;
+    cursor: pointer;
+
+}
+
+#calcular {
+
+    background-color: rgb(157, 231, 167);
+    color: rgb(18, 163, 61);
+
+}
+
+#calcular:hover {
+
+    background-color: rgb(189, 255, 199);
+    color: rgb(58, 230, 109);
+
+}
+
+#resetar {
+
+    background-color: rgb(157, 229, 231);
+    color: rgb(18, 163, 156);
+
+}
+
+#resetar:hover{
+
+    background-color: rgb(189, 251, 255);
+    color: rgb(58, 219, 230);
+
+}
+
+.res {
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px 60px;
+
+}
+
+#reiniciar {
+
+    background-color: rgb(157, 162, 231);
+    color: rgb(20, 18, 163);
+
+}
+
+#reiniciar:hover {
+
+    background-color: rgb(189, 193, 255);
+    color: rgb(61, 58, 230);
+
+}
+
+footer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}

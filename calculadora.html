@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/calculadora.css">
+    <title> Atividade Prática - Calculadora </title>
+</head>
+
+<body>
+
+
+    <header>
+        <div id="titulo">
+            <h1> Calculadora </h1>
+        </div>
+    </header>
+
+
+    <div class="form">
+        <input type="text" id="nomeProd" placeholder="Nome do produto">
+        <input type="number" id="valOg" step="0.01" placeholder="Valor original do produto">
+        <input type="number" id="perDesc" step="0.01" placeholder="Percentual de desconto" min="0" max="100">
+
+
+        <div class="botoes">
+        <button id="calcular" onclick="pegarValores()"> Calcular </button>
+
+    </div>
+
+    </div>
+
+
+
+
+    <div class="res">
+
+        <p id="resultado"> Resultado </p>
+
+    </div>
+
+    <div class="form">
+
+        <input type="text" id="nomeProdRes" placeholder="Nome do produto" disabled>
+        <input type="text" id="valOgRes" placeholder="Valor original do produto" disabled>
+        <input type="number" id="valFinal" placeholder="Valor final com desconto aplicado" disabled>
+
+
+        <div class="botoes">
+
+            <button input type="reset" id="reiniciar" onclick="reiniciar()"> Reiniciar Cálculo </button>
+
+
+        </div>
+
+    </div>
+
+
+    <script src="./js/calculadora.js"></script>
+
+</body>
+
+</html>
