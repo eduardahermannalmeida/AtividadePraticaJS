@@ -84,20 +84,6 @@ main {
 
 }
 
-#resetar {
-
-    background-color: rgb(157, 229, 231);
-    color: rgb(18, 163, 156);
-
-}
-
-#resetar:hover{
-
-    background-color: rgb(189, 251, 255);
-    color: rgb(58, 219, 230);
-
-}
-
 .res {
 
     justify-content: center;
